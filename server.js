@@ -1,0 +1,10 @@
+var express      = require('express');
+var path         = require('path');
+var logger       = require('morgan');
+var path         = require('path')
+var mongoose     = require('mongoose')
+var port         = process.env.PORT || 3000;
+var routes       = require('./routes/routes');
+var databaseurl  = 'mongodb'
+// var cookieParser = require('cookie-parser');
+var bodyParser   = require('body-parser');
